@@ -14,7 +14,6 @@ public class Card {
     //Hearts,Spades,Diamonds,Clubs
 
         private int value;
-        
     private int number;
 
     /**
