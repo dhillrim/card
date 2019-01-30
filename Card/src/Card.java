@@ -16,6 +16,26 @@ public class Card {
         private int value;
         
     private int number;
+    private String no;
+
+    /**
+     * Get the value of no
+     *
+     * @return the value of no
+     */
+    public String getNo() {
+        return no;
+    }
+
+    /**
+     * Set the value of no
+     *
+     * @param no new value of no
+     */
+    public void setNo(String no) {
+        this.no = no;
+    }
+
 
     /**
      * Get the value of number
