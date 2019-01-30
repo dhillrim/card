@@ -14,6 +14,26 @@ public class Card {
     //Hearts,Spades,Diamonds,Clubs
 
         private int value;
+    private int number;
+
+    /**
+     * Get the value of number
+     *
+     * @return the value of number
+     */
+    public int getNumber() {
+        return number;
+    }
+
+    /**
+     * Set the value of number
+     *
+     * @param number new value of number
+     */
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
         
         public Card(String givenSuit,int givenValue)
         {
